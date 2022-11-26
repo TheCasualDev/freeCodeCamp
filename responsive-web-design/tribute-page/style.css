@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+body{
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: 'Chewy', cursive;
+  }
+  
+h1{
+	  font-family: 'Titan One', cursive;
+	  font-size: 60px;
+  }
+  
+p{
+	  font-family: 'Chewy', cursive;
+  }
+
+#main{
+	
+}
+
+#title{
+
+}
+
+#sub-title{
+
+}
+
+#img-div{
+	  display: grid;
+  }
+  
+#image{
+	  max-width: 100%;
+	  height: auto;
+	  margin: 0 auto;
+  }
+
+#img-caption{
+	padding: 10px;
+}
+
+#tribue-info{
+
+}
+
+#tribute-link{
+
+}
