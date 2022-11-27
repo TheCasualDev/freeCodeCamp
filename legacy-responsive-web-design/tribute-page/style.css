@@ -2,51 +2,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
 body{
-	background-color: black;
-	text-align: center;
+	background-color: #0d0c1e;
 	color: white;
-	font-family: 'Chewy', cursive;
-  }
-  
-h1{
-	  font-family: 'Titan One', cursive;
-	  font-size: 60px;
-  }
-  
-p{
-	  font-family: 'Chewy', cursive;
-  }
-
-#main{
-	
+	text-align: center;
+	text-size-adjust: 1fr;
+	margin: 0;
+}
+ul{
+	list-style-type: none;
 }
 
 #title{
-
+	font-family: 'Titan One', cursive;
+	font-size: 50px;
+	color: #6094D7;
+	margin: 0;
 }
-
 #sub-title{
-
+	font-family: 'Chewy', cursive;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-#img-div{
-	  display: grid;
-  }
-  
 #image{
-	  max-width: 100%;
-	  height: auto;
-	  margin: 0 auto;
-  }
+	max-width: 50%;
+	height: auto;
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
+
+	margin-bottom: 5px;
+	margin-top: 20px;
+
+	border-radius: 20px;
+	border-color: white;
+	border-style: outset;
+
+}
 #img-caption{
-	padding: 10px;
+	font-family: 'Chewy', cursive;
+	font-size: 15px;
+	margin: 0px;
 }
 
-#tribue-info{
-
+#tribute-info{
+	width: 100%;
+	
 }
 
+#info-head{
+	font-family: 'Titan One', cursive;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+	text-align: justify;
+}
+#info-body{
+	font-family: 'Chewy', cursive;
+	font-size: 10px;
+	text-align: justify;
+}
+
+#tribute-link-text{
+	font-family: 'Chewy', cursive;
+	color: white;
+	size: 10px;
+	text-align: center;
+}
 #tribute-link{
-
+	color: #6094D7;
+	text-decoration: none;
 }
