@@ -11,5 +11,8 @@ Below is a list of all active projects, all these projects are being completed t
 
 <strong>Legacy Responsive Web Design</strong>
 
-* [Tribute Page](https://fcc.thecasualdev.com/legacy-responsive-web-design/tribute-page/)
-*
+* [Tribute Page](https://fcc.thecasualdev.com/legacy-responsive-web-design/tribute-page/) - 🔨 In progress
+* [Survey Form](_blank) - ❌ Not started
+* [Product Landing Page](_blank) - ❌ Not started
+* [Technical Documentation Page](_blank) - ❌ Not started
+* [Personal Portfolio Webpage](_blank) - ❌ Not started
