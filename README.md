@@ -12,7 +12,7 @@ Below is a list of all active projects, all these projects are being completed t
 <strong>Legacy Responsive Web Design</strong>
 
 * [Tribute Page](https://fcc.thecasualdev.com/legacy-responsive-web-design/tribute-page/) - ✔ Finished, Due to either my idiocy or just fault of how its marked. There are a few things I'm not happy with. Look back later?
-* [Survey Form](_blank) - ❌ Not started
+* [Survey Form](_blank) - 🔨 Work in progress
 * [Product Landing Page](_blank) - ❌ Not started
 * [Technical Documentation Page](_blank) - ❌ Not started
 * [Personal Portfolio Webpage](_blank) - ❌ Not started
