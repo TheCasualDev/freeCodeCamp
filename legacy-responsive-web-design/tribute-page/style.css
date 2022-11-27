@@ -26,20 +26,10 @@ ul{
 }
 
 #image{
-	max-width: 50%;
-	height: auto;
-	
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-
-
-	margin-bottom: 5px;
-	margin-top: 20px;
-
-	border-radius: 20px;
-	border-color: white;
-	border-style: outset;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 
 }
 #img-caption{
@@ -62,7 +52,7 @@ ul{
 }
 #info-body{
 	font-family: 'Chewy', cursive;
-	font-size: 10px;
+	font-size: 20px;
 	text-align: justify;
 }
 
