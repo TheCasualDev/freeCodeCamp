@@ -9,20 +9,38 @@ h1 {
 }
 
 .container {
-	background-color: black;
+	background-color: white;
 	padding: 10px 0;
 }
 
 /* Marker colours found below. */
+/* Don't forget to figure the gradients for shading in the future */
 
-.one {
-	background-color: cornflowerblue;
+.blue {
+	background-color: #6495ed;
 }
 
-.two {
-	background-color: lightpink;
+.pink {
+	background-color: #ffb6c1;
 }
 
-.three {
-	background-color: palegoldenrod;
+.gold {
+	background-color: #ede8ab;
 }
+
+/* 
+
+.blue {
+	background-color: rgb(100, 149, 237);
+}
+
+.pink {
+	background-color: rgb(255, 182, 193);
+}
+
+.gold {
+	background-color: rgb(237, 232, 171);
+}
+
+*/
+
