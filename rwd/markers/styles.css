@@ -1,6 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 h1 {
 	text-align: center;
+	color: white;
+
   }
+body{
+	background-color: #504f58;
+	font-family: 'Indie Flower', cursive;
+}
 
 .marker {
 	height: 25px;
@@ -9,9 +18,30 @@ h1 {
 }
 
 .container {
-	background-color: white;
+	background-color: #504f58;
 	padding: 10px 0;
 }
+
+/* marker body */
+
+.cap {
+	width: 60px;
+	height: 25px;
+}
+
+.sleeve {
+	width: 110px;
+	height: 25px;
+	background-color: rgba(255, 255, 255, 50%);
+	border-left: 10px double rgba(0, 0, 0, 75%);
+}
+
+/* set the cap and sleeve to inline-block */
+
+.cap, .sleeve {
+	display: inline-block;
+}
+
 
 /* Marker colours found below. */
 /* Don't forget to figure the gradients for shading in the future */
@@ -23,9 +53,9 @@ h1 {
 .pink {
 	background-color: #ffb6c1;
 }
-
 .gold {
 	background-color: #ede8ab;
+
 }
 
 /* 
