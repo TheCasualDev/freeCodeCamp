@@ -1,0 +1,84 @@
+
+/* Main body */
+
+body{
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+
+	/* Changes the page colour */
+
+	background-color: #1b1b32;
+	color: #f5f6f7;
+
+	/* Changes the page font */
+
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	size: 16px;
+
+}
+
+/* Single Selectors */
+
+label{
+	display: block;
+	margin: 0.5rem 0;
+}
+form{
+	margin: 0 auto;
+	width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	padding-bottom: 2em;
+}
+fieldset {
+	border: 0;
+	padding: 2rem 0;
+	border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type{
+	border-bottom: 0;
+}
+
+/* Attribute Selectors */
+
+input[type="submit"]{
+	display: block;
+	width: 60%;
+	margin: 1em auto;
+	height: 2em;
+	font-size: 1.1rem;
+	background-color: #3b3b4f;
+	border-color: #ffffff;
+	min-width: 300px;
+}
+input[type="file"] {
+	padding: 1px 2px;
+  }
+
+/* Multi Selectors */
+
+h1, p {
+	margin: 1em auto;
+	text-align: center;
+}
+input, textarea, select {
+	width: 100%;
+	margin: 0;
+	margin-top: 10px;
+	min-height: 2em;
+}
+input, textarea {
+	background-color: #0a0a23;
+	border: 1px solid #0a0a23;
+	color: #ffffff;
+}
+
+/* Custom Selectors */
+
+.inline{
+	width: unset;
+	margin: 0 0.5em 0 0;
+	vertical-align: middle;
+
+}
