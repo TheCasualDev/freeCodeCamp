@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<title>Jack's Epic Survey</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="icon" href="https://fav.farm/☕">
+		<link href="styles.css" rel="stylesheet"/>
+
+	</head>
+
+	<body>
+
+		<h1 id="title">Jack's Epic Survey</h1>
+		<p id="description">Welcome to my super epic survey</p>
+
+		<form 
+			action="https://thecasualdev.com"
+			method="dialog" 
+			id="survey-form">
+			
+			<fieldset>
+				
+				<label for="name" id="name-label">Name 
+					<input
+					id="name"
+					type="text"
+					name="name"
+					placeholder="Enter your Name"
+					required></label>
+
+				<label for="email" id="email-label">Email 
+					<input
+					id="email"
+					type="email"
+					name="email"
+					placeholder="Enter your Email"
+					required></label>
+				
+				<label for="number" id="number-label">Age (optional)
+					<input
+					id="number"
+					min="13"
+					max="99"
+					type="number"
+					placeholder="Age"
+					name="age"></label>
+
+			</fieldset>
+
+			<fieldset>
+
+				<label for="dropdown"> How did you find this survey?
+
+					<select id="dropdown" name="referrer">
+						<option value="">(select one)</option>
+						<option value="1">Twitter</option>
+						<option value="2">Instagram</option>
+						<option value="3">Bing by Microsoft</option>
+						<option value="4">Myspace</option>
+						<option value="5">Teamspeak</option>
+						<option value="6">Discord</option>
+						<option value="7">My ex-wife</option>
+						<option value="8">My ex-husband?</option>
+					</select>
+
+				</label>
+				
+				<label id="irs-label">Do you belive that the IRS is currently tracking you down?</label>
+
+				<label for="definitely">
+					<input
+					id="definitely"
+					type="radio"
+					name="irs"
+					class="inline"
+					value="2"
+					> Definitely</label>	
+			
+				<label for="maybe">
+					<input
+					id="maybe"
+					type="radio"
+					name="irs"
+					class="inline"
+					value="1"
+					> Maybe</label>
+				<label for="not-sure">
+					<input
+					id="not-sure"
+					type="radio"
+					name="irs"
+					class="inline"
+					value="3"
+					> Not sure</label>	
+
+			</fieldset>
+
+			<fieldset>
+
+				
+
+			</fieldset>
+		
+		
+		</form>
+
+	</body>
+
+</html>
